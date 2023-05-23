@@ -6,6 +6,7 @@ add-apt-repository ppa:kubuntu-ppa/backports
 # Clone Upstream
 git clone https://github.com/roc-streaming/roc-toolkit -b v0.2.4
 cp -rvf ./debian ./roc-toolkit/
+rm -rfv ./roc-toolkit/debian
 cd ./roc-toolkit
 
 for i in ../patches/*.patch; do patch -Np1 -i $i ;done
