@@ -1,3 +1,9 @@
+roc-toolkit (0.2.5-99pika1) pikauwu; urgency=medium
+
+  * Update to 0.2.5
+
+ -- Sourav Das <souravdas142@gmail.com>  Thu, 23 Mar 2023 19:03:12 +0530
+
 roc-toolkit (0.2.4-99pika1.lunar) lunar; urgency=medium
 
   * build against openfec 1.4.2.9 (roc-streaming fork)
